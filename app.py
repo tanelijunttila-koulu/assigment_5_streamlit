@@ -17,4 +17,6 @@ st.dataframe(vuosi_df)
 #st.line_chart(vuosi_df, x="Vuosi", y="Huonekäyttöaste, % Rovaniemi")
 st.bar_chart(vuosi_df)
 
+st.dataframe(rovaniemi_df)
+
 # This is test
