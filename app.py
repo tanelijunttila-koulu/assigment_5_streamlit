@@ -16,3 +16,5 @@ vuosi_df = rovaniemi_df[["Vuosi", "Yöpymiset, lkm Rovaniemi"]].groupby(by=["Vuo
 st.dataframe(vuosi_df)
 #st.line_chart(vuosi_df, x="Vuosi", y="Huonekäyttöaste, % Rovaniemi")
 st.bar_chart(vuosi_df)
+
+# This is test
